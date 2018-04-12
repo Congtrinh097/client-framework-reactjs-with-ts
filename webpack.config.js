@@ -1,5 +1,6 @@
 module.exports = {
   entry: "./src/AppPool.tsx",
+  mode: 'development',
   output: {
     filename: "bundle.js",
     path: __dirname + "/public/dist"

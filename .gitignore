@@ -47,3 +47,6 @@ yarn.lock
 .idea/vcs.xml
 public/dist/bundle.js
 dist
+
+public/dist/bundle.js.map
+public/dist/bundle.js
