@@ -1,19 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import './App.css';
+import HomeScreen from "./screens/HomeScreen/HomeScreen";
 
 class AppPool extends React.Component<any , any> {
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+    return <HomeScreen/>
   }
 }
 
