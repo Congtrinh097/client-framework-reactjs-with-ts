@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import './App.css';
 
-class App extends Component {
+class AppPool extends React.Component<any , any> {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
@@ -18,4 +17,4 @@ class App extends Component {
   }
 }
 
-export default App;
+ReactDOM.render(<AppPool />, document.getElementById('root'));
